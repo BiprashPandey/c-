@@ -14,15 +14,11 @@ int main()
     double highSchoolTutuionFee=10000;
 
     double primarySchoolTransportationFee=2000;
-    double secondarySchoolTransportationFee=3000;
-    double highSchoolTransportationFee=3000;
 
-    double primarySchoolLunchFee=3000;
-    double secondarySchoolLunchFee=3000;
 
-    cout<<"Total monthly Fee of Primary school: "<<primarySchoolTotalMonthlyFee(primarySchoolTutuionFee,primarySchoolTransportationFee,primarySchoolLunchFee)<<endl;
-    cout<<"Total monthly Fee of secondary school: "<<secondarySchoolTotalMonthlyFee(secondarySchoolTutuionFee,secondarySchoolTransportationFee,secondarySchoolLunchFee)<<endl;
-    cout<<"Total monthly Fee of high school: "<<highSchoolTotalMonthlyFee(highSchoolTutuionFee,highSchoolTransportationFee)<<endl;
+    cout<<"Total monthly Fee of Primary school: "<<primarySchoolTotalMonthlyFee(primarySchoolTutuionFee,primarySchoolTransportationFee)<<endl;
+    cout<<"Total monthly Fee of secondary school: "<<secondarySchoolTotalMonthlyFee(secondarySchoolTutuionFee)<<endl;
+    cout<<"Total monthly Fee of high school: "<<highSchoolTotalMonthlyFee(highSchoolTutuionFee)<<endl;
 
     return 0; 
 }
